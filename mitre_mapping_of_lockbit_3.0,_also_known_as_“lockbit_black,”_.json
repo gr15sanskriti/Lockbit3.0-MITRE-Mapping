@@ -1,0 +1,798 @@
+{
+	"name": "MITRE mapping of LockBit 3.0, also known as “LockBit Black,” ",
+	"versions": {
+		"attack": "14",
+		"navigator": "4.9.4",
+		"layer": "4.5"
+	},
+	"domain": "enterprise-attack",
+	"description": "",
+	"filters": {
+		"platforms": [
+			"Linux",
+			"macOS",
+			"Windows",
+			"Network",
+			"PRE",
+			"Containers",
+			"Office 365",
+			"SaaS",
+			"Google Workspace",
+			"IaaS",
+			"Azure AD"
+		]
+	},
+	"sorting": 0,
+	"layout": {
+		"layout": "side",
+		"aggregateFunction": "average",
+		"showID": false,
+		"showName": true,
+		"showAggregateScores": false,
+		"countUnscored": false,
+		"expandedSubtechniques": "none"
+	},
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1133",
+			"tactic": "persistence",
+			"color": "#e60d0d",
+			"comment": "INITIAL ACCESS:  LockBit 3.0 ransomware gain initial access to victim networks via remote desktop\nprotocol (RDP) exploitation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1133",
+			"tactic": "initial-access",
+			"color": "#e60d0d",
+			"comment": "INITIAL ACCESS:  LockBit 3.0 ransomware gain initial access to victim networks via remote desktop\nprotocol (RDP) exploitation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.009",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.009",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.006",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.006",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.007",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.007",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.004",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.004",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.005",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.005",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.001",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.001",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.008",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.008",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.012",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.012",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.014",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.014",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.015",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.015",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.013",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.013",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.003",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.003",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.002",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.002",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.010",
+			"tactic": "persistence",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.010",
+			"tactic": "privilege-escalation",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Lockbit enable Enabling automatic logon for persistence and privilege escalation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1489",
+			"tactic": "impact",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS:  Terminating processes and services",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1082",
+			"tactic": "discovery",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS: Enumerating system information such as hostname, host configuration, domain information,\nlocal drive configuration, remote shares, and mounted external storage devices",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1190",
+			"tactic": "initial-access",
+			"color": "#e60d0d",
+			"comment": "INTIAL ACESS: Lockbit3.0 exploits public facing websites ",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1567",
+			"tactic": "exfiltration",
+			"color": "#e6d60d",
+			"comment": "Exfilteration : LockBit 3.0 affiliates often use other publicly available file sharing\nservices to exfiltrate data.\nhttps://www.premiumize.com\nhttps://anonfile.com\nhttps://www.sendspace.com\nhttps://fex.net\nhttps://transfer.sh\nhttps://send.exploit.in",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1567.001",
+			"tactic": "exfiltration",
+			"color": "#e6d60d",
+			"comment": "Exfilteration : LockBit 3.0 affiliates often use other publicly available file sharing\nservices to exfiltrate data.\nhttps://www.premiumize.com\nhttps://anonfile.com\nhttps://www.sendspace.com\nhttps://fex.net\nhttps://transfer.sh\nhttps://send.exploit.in",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1567.003",
+			"tactic": "exfiltration",
+			"color": "#e6d60d",
+			"comment": "Exfilteration : LockBit 3.0 affiliates often use other publicly available file sharing\nservices to exfiltrate data.\nhttps://www.premiumize.com\nhttps://anonfile.com\nhttps://www.sendspace.com\nhttps://fex.net\nhttps://transfer.sh\nhttps://send.exploit.in",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1567.002",
+			"tactic": "exfiltration",
+			"color": "#fcf26b",
+			"comment": "EXFILTERATION :an open-source command line cloud storage manager [T1567.002]; and publicly available file\nsharing services, such as MEGA.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1567.004",
+			"tactic": "exfiltration",
+			"color": "#e6d60d",
+			"comment": "Exfilteration : LockBit 3.0 affiliates often use other publicly available file sharing\nservices to exfiltrate data.\nhttps://www.premiumize.com\nhttps://anonfile.com\nhttps://www.sendspace.com\nhttps://fex.net\nhttps://transfer.sh\nhttps://send.exploit.in",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1491",
+			"tactic": "impact",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1491.001",
+			"tactic": "impact",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS: LockBit 3.0 drops a ransom note with the new filename <Ransomware\nID>.README.txt and changes the host’s wallpaper and icons to LockBit 3.0 branding",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1070.004",
+			"tactic": "defense-evasion",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: Once completed, LockBit 3.0 may delete itself from the disk",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1566",
+			"tactic": "initial-access",
+			"color": "#e60d0d",
+			"comment": "Intiall Access:  LockBit 3.0 ransomware gain initial access to victim networks via phihsing also",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1566.002",
+			"tactic": "initial-access",
+			"color": "#e60d0d",
+			"comment": "Intiall Access:  LockBit 3.0 ransomware gain initial access to victim networks via phihsing also",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1566.001",
+			"tactic": "initial-access",
+			"color": "#e60d0d",
+			"comment": "Intiall Access:  LockBit 3.0 ransomware gain initial access to victim networks via phihsing also",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1566.004",
+			"tactic": "initial-access",
+			"color": "#e60d0d",
+			"comment": "Intiall Access:  LockBit 3.0 ransomware gain initial access to victim networks via phihsing also",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1566.003",
+			"tactic": "initial-access",
+			"color": "#e60d0d",
+			"comment": "Intiall Access:  LockBit 3.0 ransomware gain initial access to victim networks via phihsing also",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "defense-evasion",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "persistence",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "privilege-escalation",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "initial-access",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.004",
+			"tactic": "defense-evasion",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.004",
+			"tactic": "persistence",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.004",
+			"tactic": "privilege-escalation",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.004",
+			"tactic": "initial-access",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.002",
+			"tactic": "defense-evasion",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.002",
+			"tactic": "persistence",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.002",
+			"tactic": "privilege-escalation",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.002",
+			"tactic": "initial-access",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.003",
+			"tactic": "defense-evasion",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.003",
+			"tactic": "persistence",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.003",
+			"tactic": "privilege-escalation",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.003",
+			"tactic": "initial-access",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "defense-evasion",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "persistence",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "privilege-escalation",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "initial-access",
+			"color": "#e6550d",
+			"comment": "INTIALL ACCESS & EXECUTION AND INFECTION PROCESS:LockBit 3.0 attempts to spread across a victim network by using a preconfigured list of credentials\nhardcoded at compilation time or a compromised local account with elevated privileges",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1027",
+			"tactic": "defense-evasion",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS: LockBit 3.0 will send encrypted host and bot information to a command and control (C2)\nserver",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1486",
+			"tactic": "impact",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS: LockBit 3.0 may also enable options for spreading via Group Policy Objects and\nPsExec using the Server Message Block (SMB) protocol. LockBit 3.0 attempts to encrypt \ndata saved to any local or remote device, but skips files associated with core system functions.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1485",
+			"tactic": "impact",
+			"color": "#fd8d3c",
+			"comment": "EXECUTION AND INFECTION PROCESS\n: , LockBit 3.0 may delete itself from the disk  as well as any Group Policy\nupdates that were made",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1189",
+			"tactic": "initial-access",
+			"color": "#e60d0d",
+			"comment": " INTIAL ACCESS: drive-by compromise",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1490",
+			"tactic": "impact",
+			"color": "#fd8d3c",
+			"comment": "INITIAL ACCESS:  LockBit 3.0 ransomware gain initial access to victim networks via remote desktop\nprotocol (RDP) exploitation",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ff6666ff",
+			"#ffe766ff",
+			"#8ec843ff"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [
+		{
+			"label": "IntiallAccess",
+			"color": "#fc3b3b"
+		},
+		{
+			"label": "Exec&Infection",
+			"color": "#fd8d3c"
+		},
+		{
+			"label": "Exfilteration",
+			"color": "#fcf26b"
+		}
+	],
+	"metadata": [],
+	"links": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true,
+	"selectSubtechniquesWithParent": false,
+	"selectVisibleTechniques": false
+}
